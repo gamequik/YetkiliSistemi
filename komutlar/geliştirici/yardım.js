@@ -4,7 +4,7 @@ const { MessageEmbed } = require("discord.js");
    name: "yardım",
    category: "geliştirici",
    aliases: ['help'],
-   description: "Bu Menüyü Göterir",
+   description: "Bu Menüyü Gösterir",
    run: async (client, levmsg, args, PREFIX) => {
     let commands = levmsg.client.commands.array();
     let EMBED = new MessageEmbed()
